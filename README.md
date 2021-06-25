@@ -320,6 +320,12 @@ _The following table is valid for v0.14.0 - v0.17.0 only_
 
 ## Unreleased
 
+Things to fix before release 0.18.0:
+
+* Make sure the added distortion of TanhDistortion depends less on the loudness of the input. Pick uniform gain in db, not amplitude ratio? not sure about this.
+* fix the failing tanhdistortion tests
+* listen to the tanhdistortion results
+
 ### Added
 
 * Implement `TanhDistortion`. Thanks to atamazian.
